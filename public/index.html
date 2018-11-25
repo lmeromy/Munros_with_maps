@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Scottish Munros</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bundle.js">
+    </script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+  </head>
+  <body>
+    <h1>Scottish Munros</h1>
+
+    <label for="munro-region-dropdown">Filter munros by region:</label>
+    <select id="munro-region-dropdown">
+      <option selected disabled></option>
+    </select>
+
+    <div class="munro-content">
+    <div id='munros'><h2>All Munros:</h2></div>
+    <div id='munros-map'><h2>Map the Munros:</h2></div>
+    </div>
+
+  </body>
+</html>
